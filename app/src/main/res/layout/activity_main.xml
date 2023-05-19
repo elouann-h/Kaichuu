@@ -35,16 +35,15 @@
 
     </LinearLayout>
 
-    <Button
+    <ImageView
         android:id="@+id/received_button"
-        android:layout_width="80dp"
+        android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="20dp"
-        android:drawableStart="@drawable/bottle_bold"
-        android:drawablePadding="8dp"
+        android:translationX="10dp"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/received_button" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
